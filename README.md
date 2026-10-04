@@ -10,7 +10,7 @@
 
 ## Problem it solves
 
-Form-to-CRM automations often create duplicate contacts and inconsistent fields. This service normalizes every submission and matches it against existing records before creating or updating anything.
+Form-to-CRM automations often create duplicate contacts and inconsistent fields. This service normalizes every submission and matches it against existing records before creating or updating anything. It is built as the webhook backend for a Make.com scenario: the automation platform handles triggers, and this service holds the logic and data.
 
 ## Architecture
 
@@ -31,7 +31,7 @@ Form-to-CRM automations often create duplicate contacts and inconsistent fields.
 
 ## Tech stack
 
-![Python](https://img.shields.io/badge/Python-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![FastAPI](https://img.shields.io/badge/FastAPI-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![Make.com](https://img.shields.io/badge/Make.com-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![HubSpot API](https://img.shields.io/badge/HubSpot%20API-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![Jinja2](https://img.shields.io/badge/Jinja2-161b22?style=for-the-badge&labelColor=161b22&color=161b22)
+![Python](https://img.shields.io/badge/Python-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![FastAPI](https://img.shields.io/badge/FastAPI-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![Webhooks](https://img.shields.io/badge/Webhooks-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![HubSpot API](https://img.shields.io/badge/HubSpot%20API-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![Jinja2](https://img.shields.io/badge/Jinja2-161b22?style=for-the-badge&labelColor=161b22&color=161b22)
 
 ## What it does in practice
 
@@ -42,6 +42,10 @@ Form-to-CRM automations often create duplicate contacts and inconsistent fields.
 **Synced records and field mappings**
 
 ![Synced records and field mappings](assets/00-home.png)
+
+**Field mappings and sync log**
+
+![Field mappings and sync log](assets/10-logs.png)
 
 ---
 
