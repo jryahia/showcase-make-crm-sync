@@ -39,6 +39,8 @@ Form-to-CRM automations often create duplicate contacts and inconsistent fields.
 
 ## Screenshots
 
+> Screenshots show the app running on seeded demo data, not client data.
+
 **Synced records and field mappings**
 
 ![Synced records and field mappings](assets/00-home.png)
